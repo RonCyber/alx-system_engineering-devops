@@ -10,17 +10,26 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~MSle0~/bin
+
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1662033945,,"wq!"
+|2,0,1666008071,,"wq!"
+:ww!
+|2,0,1666008009,,"ww!"
 :qa!
-|2,0,1661954715,,"qa!"
+|2,0,1666007898,,"qa!"
+:wq1
+|2,0,1663068049,,"wq1"
 :q!
 |2,0,1661856831,,"q!"
 :wq!q
 |2,0,1661855184,,"wq!q"
 
 # Search String History (newest to oldest):
+?/bin/bash
+|2,1,1662041979,47,"bin/bash"
 
 # Expression History (newest to oldest):
 
@@ -29,400 +38,1238 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
+"0	LINE	0
+		printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(c));
+|3,0,0,1,1,0,1662673266,"	printf(\"Size of a char: %lu byte(s)\\n\", (unsigned long)sizeof(c));"
+"1	LINE	0
 	echo "ALX"
-|3,1,1,1,1,0,1661858990,"echo \"ALX\""
+|3,0,1,1,1,0,1661858990,"echo \"ALX\""
 "2	LINE	0
 	
 |3,0,2,1,1,0,1661855093,""
 "3	LINE	0
 	echo "ALX"
 |3,0,3,1,1,0,1661244676,"echo \"ALX\""
-"-	CHAR	0
-	Changes
-|3,0,36,0,1,0,1661246905,"Changes"
+""-	CHAR	0
+	o
+|3,1,36,0,1,0,1665998644,"o"
 
 # File marks:
-'0  2  20  ~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory
-|4,48,2,20,1662033945,"~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory"
-'1  2  28  ~/alx-system_engineering-devops/0x00-shell_basics/7-movethatfile
-|4,49,2,28,1661955410,"~/alx-system_engineering-devops/0x00-shell_basics/7-movethatfile"
-'2  2  28  ~/alx-system_engineering-devops/0x00-shell_basics/7--movethatfile
-|4,50,2,28,1661955196,"~/alx-system_engineering-devops/0x00-shell_basics/7--movethatfile"
-'3  2  19  ~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory
-|4,51,2,19,1661955132,"~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory"
-'4  2  6  ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
-|4,52,2,6,1661955043,"~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly"
-'5  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,53,2,5,1661954995,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
-'6  1  43  ~/alx-system_engineering-devops/README.md
-|4,54,1,43,1661954896,"~/alx-system_engineering-devops/README.md"
-'7  1  0  /README.md
-|4,55,1,0,1661954715,"/README.md"
-'8  2  4  ~/alx-system_engineering-devops/0x00-shell_basics/3-listfiles
-|4,56,2,4,1661954486,"~/alx-system_engineering-devops/0x00-shell_basics/3-listfiles"
-'9  2  1  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,57,2,1,1661954446,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+'0  39  0  /printf/get_prints.c
+|4,48,39,0,1666008071,"/printf/get_prints.c"
+'1  33  19  /printf/printf.c
+|4,49,33,19,1666008020,"/printf/printf.c"
+'2  33  20  /printf/printf.c
+|4,50,33,20,1666007937,"/printf/printf.c"
+'3  1  0  /printf/get_prints.c
+|4,51,1,0,1666007898,"/printf/get_prints.c"
+'4  1  0  /printf/get_prints.c
+|4,52,1,0,1666007898,"/printf/get_prints.c"
+'5  9  13  /printf/print_rev.c
+|4,53,9,13,1666007717,"/printf/print_rev.c"
+'6  3  6  /printf/flags.c
+|4,54,3,6,1666007645,"/printf/flags.c"
+'7  1  0  /printf/flags
+|4,55,1,0,1666007610,"/printf/flags"
+'8  42  7  /printf/main.h
+|4,56,42,7,1666007515,"/printf/main.h"
+'9  45  20  /printf/main.h
+|4,57,45,20,1666007480,"/printf/main.h"
 
 # Jumplist (newest first):
--'  2  20  ~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory
-|4,39,2,20,1662033945,"~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory"
--'  2  28  ~/alx-system_engineering-devops/0x00-shell_basics/7-movethatfile
-|4,39,2,28,1661955410,"~/alx-system_engineering-devops/0x00-shell_basics/7-movethatfile"
--'  2  28  ~/alx-system_engineering-devops/0x00-shell_basics/7-movethatfile
-|4,39,2,28,1661955410,"~/alx-system_engineering-devops/0x00-shell_basics/7-movethatfile"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/7-movethatfile
-|4,39,1,0,1661955357,"~/alx-system_engineering-devops/0x00-shell_basics/7-movethatfile"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/7-movethatfile
-|4,39,1,0,1661955357,"~/alx-system_engineering-devops/0x00-shell_basics/7-movethatfile"
--'  2  28  ~/alx-system_engineering-devops/0x00-shell_basics/7--movethatfile
-|4,39,2,28,1661955196,"~/alx-system_engineering-devops/0x00-shell_basics/7--movethatfile"
--'  2  28  ~/alx-system_engineering-devops/0x00-shell_basics/7--movethatfile
-|4,39,2,28,1661955196,"~/alx-system_engineering-devops/0x00-shell_basics/7--movethatfile"
--'  2  28  ~/alx-system_engineering-devops/0x00-shell_basics/7--movethatfile
-|4,39,2,28,1661955196,"~/alx-system_engineering-devops/0x00-shell_basics/7--movethatfile"
--'  2  28  ~/alx-system_engineering-devops/0x00-shell_basics/7--movethatfile
-|4,39,2,28,1661955196,"~/alx-system_engineering-devops/0x00-shell_basics/7--movethatfile"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/7--movethatfile
-|4,39,1,0,1661955148,"~/alx-system_engineering-devops/0x00-shell_basics/7--movethatfile"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/7--movethatfile
-|4,39,1,0,1661955148,"~/alx-system_engineering-devops/0x00-shell_basics/7--movethatfile"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/7--movethatfile
-|4,39,1,0,1661955148,"~/alx-system_engineering-devops/0x00-shell_basics/7--movethatfile"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/7--movethatfile
-|4,39,1,0,1661955148,"~/alx-system_engineering-devops/0x00-shell_basics/7--movethatfile"
--'  2  19  ~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory
-|4,39,2,19,1661955132,"~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory"
--'  2  19  ~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory
-|4,39,2,19,1661955132,"~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory"
--'  2  19  ~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory
-|4,39,2,19,1661955132,"~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory"
--'  2  19  ~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory
-|4,39,2,19,1661955132,"~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory
-|4,39,1,0,1661955078,"~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory
-|4,39,1,0,1661955078,"~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory
-|4,39,1,0,1661955078,"~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory
-|4,39,1,0,1661955078,"~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory
-|4,39,1,0,1661955078,"~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory"
--'  2  6  ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
-|4,39,2,6,1661955043,"~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly"
--'  2  6  ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
-|4,39,2,6,1661955043,"~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly"
--'  2  6  ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
-|4,39,2,6,1661955043,"~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly"
--'  2  6  ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
-|4,39,2,6,1661955043,"~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly"
--'  2  6  ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
-|4,39,2,6,1661955043,"~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly"
--'  2  6  ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
-|4,39,2,6,1661955043,"~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly"
--'  2  6  ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
-|4,39,2,6,1661955043,"~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly"
--'  2  6  ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
-|4,39,2,6,1661955043,"~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly"
--'  2  6  ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
-|4,39,2,6,1661955043,"~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly"
--'  2  6  ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
-|4,39,2,6,1661955043,"~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly"
--'  2  6  ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
-|4,39,2,6,1661955043,"~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly"
--'  2  6  ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
-|4,39,2,6,1661955043,"~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly"
--'  2  6  ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
-|4,39,2,6,1661955043,"~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly"
--'  2  6  ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
-|4,39,2,6,1661955043,"~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly"
--'  2  6  ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
-|4,39,2,6,1661955043,"~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly"
--'  2  6  ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
-|4,39,2,6,1661955043,"~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
-|4,39,1,0,1661955017,"~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
-|4,39,1,0,1661955017,"~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
-|4,39,1,0,1661955017,"~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
-|4,39,1,0,1661955017,"~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
-|4,39,1,0,1661955017,"~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
-|4,39,1,0,1661955017,"~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
-|4,39,1,0,1661955017,"~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
-|4,39,1,0,1661955017,"~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
-|4,39,1,0,1661955017,"~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
-|4,39,1,0,1661955017,"~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
-|4,39,1,0,1661955017,"~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
-|4,39,1,0,1661955017,"~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
-|4,39,1,0,1661955017,"~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
-|4,39,1,0,1661955017,"~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
-|4,39,1,0,1661955017,"~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
-|4,39,1,0,1661955017,"~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly"
--'  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,2,5,1661954995,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,2,5,1661954995,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,2,5,1661954995,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,2,5,1661954995,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,2,5,1661954995,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,2,5,1661954995,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,2,5,1661954995,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,2,5,1661954995,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,2,5,1661954995,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,2,5,1661954995,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,2,5,1661954995,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,2,5,1661954995,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,2,5,1661954995,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,2,5,1661954995,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,2,5,1661954995,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,2,5,1661954995,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,2,5,1661954995,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,2,5,1661954995,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,2,5,1661954995,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,2,5,1661954995,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,2,5,1661954995,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,2,5,1661954995,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,2,5,1661954995,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,2,5,1661954995,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,2,5,1661954995,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,2,5,1661954995,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,2,5,1661954995,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,2,5,1661954995,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,2,5,1661954995,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,2,5,1661954995,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,2,5,1661954995,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,2,5,1661954995,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,1,0,1661954970,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,1,0,1661954970,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,1,0,1661954970,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,1,0,1661954970,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,1,0,1661954970,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,1,0,1661954970,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,1,0,1661954970,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,1,0,1661954970,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,1,0,1661954970,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,1,0,1661954970,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,1,0,1661954970,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,1,0,1661954970,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,1,0,1661954970,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,39,1,0,1661954970,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
+-'  39  0  /printf/get_prints.c
+|4,39,39,0,1666008071,"/printf/get_prints.c"
+-'  1  0  /printf/get_prints.c
+|4,39,1,0,1666008034,"/printf/get_prints.c"
+-'  33  19  /printf/printf.c
+|4,39,33,19,1666008020,"/printf/printf.c"
+-'  33  19  /printf/printf.c
+|4,39,33,19,1666008020,"/printf/printf.c"
+-'  1  0  /printf/printf.c
+|4,39,1,0,1666007985,"/printf/printf.c"
+-'  1  0  /printf/printf.c
+|4,39,1,0,1666007985,"/printf/printf.c"
+-'  33  20  /printf/printf.c
+|4,39,33,20,1666007937,"/printf/printf.c"
+-'  33  20  /printf/printf.c
+|4,39,33,20,1666007937,"/printf/printf.c"
+-'  1  0  /printf/printf.c
+|4,39,1,0,1666007908,"/printf/printf.c"
+-'  1  0  /printf/printf.c
+|4,39,1,0,1666007908,"/printf/printf.c"
+-'  1  0  /printf/get_prints.c
+|4,39,1,0,1666007898,"/printf/get_prints.c"
+-'  1  0  /printf/get_prints.c
+|4,39,1,0,1666007898,"/printf/get_prints.c"
+-'  1  0  /printf/get_prints.c
+|4,39,1,0,1666007898,"/printf/get_prints.c"
+-'  1  0  /printf/get_prints.c
+|4,39,1,0,1666007898,"/printf/get_prints.c"
+-'  9  13  /printf/print_rev.c
+|4,39,9,13,1666007717,"/printf/print_rev.c"
+-'  9  13  /printf/print_rev.c
+|4,39,9,13,1666007717,"/printf/print_rev.c"
+-'  9  13  /printf/print_rev.c
+|4,39,9,13,1666007717,"/printf/print_rev.c"
+-'  9  13  /printf/print_rev.c
+|4,39,9,13,1666007717,"/printf/print_rev.c"
+-'  9  13  /printf/print_rev.c
+|4,39,9,13,1666007717,"/printf/print_rev.c"
+-'  9  13  /printf/print_rev.c
+|4,39,9,13,1666007717,"/printf/print_rev.c"
+-'  9  13  /printf/print_rev.c
+|4,39,9,13,1666007717,"/printf/print_rev.c"
+-'  9  13  /printf/print_rev.c
+|4,39,9,13,1666007717,"/printf/print_rev.c"
+-'  9  13  /printf/print_rev.c
+|4,39,9,13,1666007717,"/printf/print_rev.c"
+-'  9  13  /printf/print_rev.c
+|4,39,9,13,1666007717,"/printf/print_rev.c"
+-'  9  13  /printf/print_rev.c
+|4,39,9,13,1666007717,"/printf/print_rev.c"
+-'  9  13  /printf/print_rev.c
+|4,39,9,13,1666007717,"/printf/print_rev.c"
+-'  9  13  /printf/print_rev.c
+|4,39,9,13,1666007717,"/printf/print_rev.c"
+-'  9  13  /printf/print_rev.c
+|4,39,9,13,1666007717,"/printf/print_rev.c"
+-'  9  13  /printf/print_rev.c
+|4,39,9,13,1666007717,"/printf/print_rev.c"
+-'  9  13  /printf/print_rev.c
+|4,39,9,13,1666007717,"/printf/print_rev.c"
+-'  1  0  /printf/print_rev.c
+|4,39,1,0,1666007695,"/printf/print_rev.c"
+-'  1  0  /printf/print_rev.c
+|4,39,1,0,1666007695,"/printf/print_rev.c"
+-'  1  0  /printf/print_rev.c
+|4,39,1,0,1666007695,"/printf/print_rev.c"
+-'  1  0  /printf/print_rev.c
+|4,39,1,0,1666007695,"/printf/print_rev.c"
+-'  1  0  /printf/print_rev.c
+|4,39,1,0,1666007695,"/printf/print_rev.c"
+-'  1  0  /printf/print_rev.c
+|4,39,1,0,1666007695,"/printf/print_rev.c"
+-'  1  0  /printf/print_rev.c
+|4,39,1,0,1666007695,"/printf/print_rev.c"
+-'  1  0  /printf/print_rev.c
+|4,39,1,0,1666007695,"/printf/print_rev.c"
+-'  1  0  /printf/print_rev.c
+|4,39,1,0,1666007695,"/printf/print_rev.c"
+-'  1  0  /printf/print_rev.c
+|4,39,1,0,1666007695,"/printf/print_rev.c"
+-'  1  0  /printf/print_rev.c
+|4,39,1,0,1666007695,"/printf/print_rev.c"
+-'  1  0  /printf/print_rev.c
+|4,39,1,0,1666007695,"/printf/print_rev.c"
+-'  1  0  /printf/print_rev.c
+|4,39,1,0,1666007695,"/printf/print_rev.c"
+-'  1  0  /printf/print_rev.c
+|4,39,1,0,1666007695,"/printf/print_rev.c"
+-'  1  0  /printf/print_rev.c
+|4,39,1,0,1666007695,"/printf/print_rev.c"
+-'  1  0  /printf/print_rev.c
+|4,39,1,0,1666007695,"/printf/print_rev.c"
+-'  3  6  /printf/flags.c
+|4,39,3,6,1666007645,"/printf/flags.c"
+-'  3  6  /printf/flags.c
+|4,39,3,6,1666007645,"/printf/flags.c"
+-'  3  6  /printf/flags.c
+|4,39,3,6,1666007645,"/printf/flags.c"
+-'  3  6  /printf/flags.c
+|4,39,3,6,1666007645,"/printf/flags.c"
+-'  3  6  /printf/flags.c
+|4,39,3,6,1666007645,"/printf/flags.c"
+-'  3  6  /printf/flags.c
+|4,39,3,6,1666007645,"/printf/flags.c"
+-'  3  6  /printf/flags.c
+|4,39,3,6,1666007645,"/printf/flags.c"
+-'  3  6  /printf/flags.c
+|4,39,3,6,1666007645,"/printf/flags.c"
+-'  3  6  /printf/flags.c
+|4,39,3,6,1666007645,"/printf/flags.c"
+-'  3  6  /printf/flags.c
+|4,39,3,6,1666007645,"/printf/flags.c"
+-'  3  6  /printf/flags.c
+|4,39,3,6,1666007645,"/printf/flags.c"
+-'  3  6  /printf/flags.c
+|4,39,3,6,1666007645,"/printf/flags.c"
+-'  3  6  /printf/flags.c
+|4,39,3,6,1666007645,"/printf/flags.c"
+-'  3  6  /printf/flags.c
+|4,39,3,6,1666007645,"/printf/flags.c"
+-'  3  6  /printf/flags.c
+|4,39,3,6,1666007645,"/printf/flags.c"
+-'  3  6  /printf/flags.c
+|4,39,3,6,1666007645,"/printf/flags.c"
+-'  3  6  /printf/flags.c
+|4,39,3,6,1666007645,"/printf/flags.c"
+-'  3  6  /printf/flags.c
+|4,39,3,6,1666007645,"/printf/flags.c"
+-'  3  6  /printf/flags.c
+|4,39,3,6,1666007645,"/printf/flags.c"
+-'  3  6  /printf/flags.c
+|4,39,3,6,1666007645,"/printf/flags.c"
+-'  3  6  /printf/flags.c
+|4,39,3,6,1666007645,"/printf/flags.c"
+-'  3  6  /printf/flags.c
+|4,39,3,6,1666007645,"/printf/flags.c"
+-'  3  6  /printf/flags.c
+|4,39,3,6,1666007645,"/printf/flags.c"
+-'  3  6  /printf/flags.c
+|4,39,3,6,1666007645,"/printf/flags.c"
+-'  3  6  /printf/flags.c
+|4,39,3,6,1666007645,"/printf/flags.c"
+-'  3  6  /printf/flags.c
+|4,39,3,6,1666007645,"/printf/flags.c"
+-'  3  6  /printf/flags.c
+|4,39,3,6,1666007645,"/printf/flags.c"
+-'  3  6  /printf/flags.c
+|4,39,3,6,1666007645,"/printf/flags.c"
+-'  3  6  /printf/flags.c
+|4,39,3,6,1666007645,"/printf/flags.c"
+-'  3  6  /printf/flags.c
+|4,39,3,6,1666007645,"/printf/flags.c"
+-'  3  6  /printf/flags.c
+|4,39,3,6,1666007645,"/printf/flags.c"
+-'  3  6  /printf/flags.c
+|4,39,3,6,1666007645,"/printf/flags.c"
+-'  1  0  /printf/flags.c
+|4,39,1,0,1666007614,"/printf/flags.c"
+-'  1  0  /printf/flags.c
+|4,39,1,0,1666007614,"/printf/flags.c"
+-'  1  0  /printf/flags.c
+|4,39,1,0,1666007614,"/printf/flags.c"
+-'  1  0  /printf/flags.c
+|4,39,1,0,1666007614,"/printf/flags.c"
+-'  1  0  /printf/flags.c
+|4,39,1,0,1666007614,"/printf/flags.c"
+-'  1  0  /printf/flags.c
+|4,39,1,0,1666007614,"/printf/flags.c"
+-'  1  0  /printf/flags.c
+|4,39,1,0,1666007614,"/printf/flags.c"
+-'  1  0  /printf/flags.c
+|4,39,1,0,1666007614,"/printf/flags.c"
+-'  1  0  /printf/flags.c
+|4,39,1,0,1666007614,"/printf/flags.c"
+-'  1  0  /printf/flags.c
+|4,39,1,0,1666007614,"/printf/flags.c"
+-'  1  0  /printf/flags.c
+|4,39,1,0,1666007614,"/printf/flags.c"
+-'  1  0  /printf/flags.c
+|4,39,1,0,1666007614,"/printf/flags.c"
+-'  1  0  /printf/flags.c
+|4,39,1,0,1666007614,"/printf/flags.c"
+-'  1  0  /printf/flags.c
+|4,39,1,0,1666007614,"/printf/flags.c"
+-'  1  0  /printf/flags.c
+|4,39,1,0,1666007614,"/printf/flags.c"
+-'  1  0  /printf/flags.c
+|4,39,1,0,1666007614,"/printf/flags.c"
+-'  1  0  /printf/flags.c
+|4,39,1,0,1666007614,"/printf/flags.c"
+-'  1  0  /printf/flags.c
+|4,39,1,0,1666007614,"/printf/flags.c"
+-'  1  0  /printf/flags.c
+|4,39,1,0,1666007614,"/printf/flags.c"
+-'  1  0  /printf/flags.c
+|4,39,1,0,1666007614,"/printf/flags.c"
+-'  1  0  /printf/flags.c
+|4,39,1,0,1666007614,"/printf/flags.c"
+-'  1  0  /printf/flags.c
+|4,39,1,0,1666007614,"/printf/flags.c"
 
 # History of marks within files (newest to oldest):
 
-> ~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory
-	*	1662033937	0
-	"	2	20
-	^	2	21
+> /printf/get_prints.c
+	*	1666008064	0
+	"	39	0
+	^	39	1
+	.	13	15
+	+	39	0
+	+	4	12
+	+	13	15
+	+	4	12
+	+	13	15
+
+> /printf/printf.c
+	*	1666008015	0
+	"	33	19
+	^	33	20
+	.	33	20
+	+	43	0
+	+	31	13
+	+	33	20
+
+> /printf/print_rev.c
+	*	1666007712	0
+	"	9	13
+	^	9	14
+	.	9	13
+	+	25	0
+	+	9	13
+
+> /printf/flags.c
+	*	1666007642	0
+	"	3	6
+	^	3	7
+	.	3	6
+	+	28	0
+	+	3	26
+	+	4	7
+	+	9	7
+	+	3	6
+
+> /printf/flags
+	*	1666007607	0
+	"	1	0
+
+> /printf/main.h
+	*	1666007512	0
+	"	42	7
+	^	42	8
+	.	42	7
+	+	52	5
+	+	1	6
+	+	2	10
+	+	42	7
+
+> /printf/main.c
+	*	1666007132	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> /printf/.gitignore
+	*	1666006375	0
+	"	57	7
+	^	57	8
+	.	57	7
+	+	57	7
+
+> /printf/.git/config
+	*	1666005704	0
+	"	1	0
+	^	7	41
+	.	7	40
+	+	2	33
+	+	7	40
+
+> /printf/man_3_printf
+	*	1666004791	0
+	"	88	32
+	^	88	33
+	.	88	32
+	+	88	32
+
+> /printf/print_bases.c
+	*	1666004586	0
+	"	84	0
+	^	84	1
+	.	84	0
+	+	84	0
+
+> /printf/print_alpha.c
+	*	1666004534	0
+	"	34	0
+	^	34	1
+	.	34	0
+	+	34	0
+
+> /printf/print_address.c
+	*	1666004492	0
+	"	25	0
+	^	25	1
+	.	25	0
+	+	25	0
+
+> /printf/print_i.c
+	*	1666004446	0
+	"	84	0
+	^	84	1
+	.	84	0
+	+	84	0
+
+> /printf/print_r.c
+	*	1666004366	0
+	"	65	0
+	^	65	1
+	.	108	0
+	+	108	0
+
+> /printf/convert.c
+	*	1666004040	0
+	"	27	0
+	^	27	1
+	.	27	0
+	+	27	0
+
+> /printf/_putchar.c
+	*	1666003970	0
+	"	42	0
+	^	42	1
+	.	42	0
+	+	42	0
+
+> /printf/README.md
+	*	1665998939	0
+	"	83	0
+	^	83	0
+	.	59	0
+	+	3	70
+	+	59	6
+	+	59	0
+
+> /alx-low_level_programming/0x06-pointers_arrays_strings/0-strcat.c
+	*	1663751709	0
+	"	23	0
+	^	23	0
+	.	22	19
+	+	1	17
+	+	3	29
+	+	6	24
+	+	10	36
+	+	25	0
+	+	24	10
+	+	16	30
+	+	15	94
+	+	18	5
+	+	16	3
+	+	24	0
+	+	22	19
+
+> /alx-low_level_programming/0x02-functions_nested_loops/3-islower.c
+	*	1663157904	0
+	"	13	0
+	^	13	1
+	.	14	0
+	+	15	0
+	+	14	7
+	+	13	1
+	+	11	1
+	+	10	14
+	+	14	0
+
+> /alx-low_level_programming/.git/MERGE_MSG
+	*	1663156513	0
+	"	2	4
+	^	2	5
 	.	3	0
-	+	2	21
 	+	3	0
 
-> ~/alx-system_engineering-devops/0x00-shell_basics/7-movethatfile
-	*	1661955406	0
-	"	2	28
-	^	2	29
-	.	3	0
-	+	3	0
+> /alx-low_level_programming/0x02-functions_nested_loops/main.h
+	*	1663156431	0
+	"	18	27
+	^	18	28
+	.	18	27
+	+	1	21
+	+	9	5
+	+	4	43
+	+	7	3
+	+	8	11
+	+	5	29
+	+	8	19
+	+	9	0
+	+	8	19
+	+	9	0
+	+	17	2
+	+	16	2
+	+	18	27
 
-> ~/alx-system_engineering-devops/0x00-shell_basics/7--movethatfile
-	*	1661955191	0
-	"	2	28
-	^	2	29
-	.	3	0
-	+	3	0
+> /alx-low_level_programming/0x02-functions_nested_loops/2-prints_alphabet_x10.c
+	*	1663156316	0
+	"	12	16
+	^	12	17
+	.	12	16
+	+	7	29
+	+	20	0
+	+	9	13
+	+	9	7
+	+	18	16
+	+	18	12
+	+	18	15
+	+	19	12
+	+	18	0
+	+	12	25
+	+	10	6
+	+	14	27
+	+	17	0
+	+	16	2
+	+	12	16
 
-> ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
-	*	1661955039	0
+> /alx-low_level_programming/0x02-functions_nested_loops/1-alphabet.c
+	*	1663070507	0
+	"	2	0
+	^	2	0
+	.	1	2
+	+	1	2
+
+> /alx-low_level_programming/0x02-functions_nested_loops/0-putchar.c
+	*	1663070303	0
+	"	10	17
+	^	10	18
+	.	10	17
+	+	1	17
+	+	4	18
+	+	4	21
+	+	5	0
+	+	1	9
+	+	8	14
+	+	13	0
+	+	12	10
+	+	8	24
+	+	12	10
+	+	8	36
+	+	8	48
+	+	8	33
+	+	8	50
+	+	8	24
+	+	8	36
+	+	12	0
+	+	8	36
+	+	8	108
+	+	8	39
+	+	8	71
+	+	8	72
+	+	8	89
+	+	8	94
+	+	12	0
+	+	8	36
+	+	10	14
+	+	9	0
+	+	10	17
+
+> /alx-low_level_programming/0x02-functions_nested_loops/mainh
+	*	1663068804	0
+	"	1	0
+
+> /alx-low_level_programming/0x02-functions_nested_loops/0-putchar.vc
+	*	1663067766	0
+	"	1	0
+
+> /alx-low_level_programming/0x02-functions_nested_loops/,main.h
+	*	1663067547	0
+	"	1	0
+
+> /alx-low_level_programming/0x02-functions_nested_loops/main.c
+	*	1663064563	0
+	"	1	0
+
+> /alx-low_level_programming/0x02-functions_nested_loops/_putchar.c
+	*	1663064543	0
+	"	1	0
+
+> /alx-low_level_programming/0x02-functions_nested_loops/0-=putchar.c
+	*	1663064205	0
+	"	1	0
+
+> /alx-low_level_programming/0x02-functions_nested_loops/header.h
+	*	1663062855	0
+	"	1	0
+	^	1	0
+
+> /alx-low_level_programming/README.md
+	*	1663061576	0
+	"	1	9
+	^	1	10
+	.	1	10
+	+	1	10
+
+> /alx-low_level_programming/0x01-variables_if_else_while/100-print_comb3.c
+	*	1662738918	0
+	"	2	0
+	^	2	0
+	.	1	18
+	+	1	18
+
+> /alx-low_level_programming/0x01-variables_if_else_while/3-print_alphabets.c
+	*	1662737599	0
+	"	1	0
+	^	1	0
+
+> /alx-low_level_programming/0x01-variables_if_else_while/4-print_alphabt.c
+	*	1662736061	0
+	"	12	15
+	^	12	16
+	.	12	15
+	+	17	2
+	+	10	8
+	+	13	0
+	+	11	0
+	+	12	29
+	+	18	10
+	+	18	12
+	+	14	19
+	+	12	15
+
+> /alx-low_level_programming/0x01-variables_if_else_while/3-print_alphabet.c
+	*	1662734904	0
+	"	16	12
+	^	16	13
+	.	16	12
+	+	13	36
+	+	10	29
+	+	16	14
+	+	16	22
+	+	10	14
+	+	15	0
+	+	17	0
+	+	16	20
+	+	14	0
+	+	13	22
+	+	10	7
+	+	12	27
+	+	13	10
+	+	14	0
+	+	15	1
+	+	16	0
+	+	16	12
+
+> /alx-low_level_programming/0x01-variables_if_else_while/2-print_alphabet.c
+	*	1662733459	0
+	"	12	6
+	^	12	7
+	.	12	6
+	+	5	29
+	+	8	14
+	+	10	16
+	+	9	11
+	+	10	33
+	+	10	71
+	+	19	0
+	+	10	80
+	+	10	61
+	+	9	9
+	+	10	47
+	+	10	61
+	+	10	83
+	+	10	82
+	+	10	65
+	+	18	0
+	+	14	23
+	+	10	49
+	+	14	14
+	+	14	21
+	+	14	20
+	+	10	21
+	+	9	14
+	+	14	21
+	+	15	6
+	+	15	22
+	+	15	7
+	+	15	5
+	+	15	7
+	+	15	6
+	+	18	0
+	+	16	2
+	+	17	14
+	+	2	0
+	+	10	1
+	+	12	6
+
+> /.vimrc
+	*	1662733072	0
+	"	1	13
+	^	1	14
+	.	1	13
+	+	1	13
+
+> ~/.vimrc
+	*	1662732948	0
+	"	1	25
+	^	1	26
+	.	1	25
+	+	1	25
+
+> /vimrc
+	*	1662731733	0
+	"	1	0
+
+> /alx-low_level_programming/0x01-variables_if_else_while/1-last_digit.c
+	*	1662730471	0
+	"	5	0
+	^	5	0
+	.	4	0
+	+	1	0
+	+	20	69
+	+	8	140
+	+	8	125
+	+	20	78
+	+	20	111
+	+	20	100
+	+	20	158
+	+	24	56
+	+	23	3
+	+	25	41
+	+	24	94
+	+	26	78
+	+	27	76
+	+	23	11
+	+	8	67
+	+	8	126
+	+	8	34
+	+	8	48
+	+	7	0
+	+	3	18
+	+	20	77
+	+	23	0
+	+	23	3
+	+	24	0
+	+	25	0
+	+	26	0
+	+	27	0
+	+	29	0
+	+	28	0
+	+	30	0
+	+	20	80
+	+	25	36
+	+	20	13
+	+	8	28
+	+	22	0
+	+	20	80
+	+	21	0
+	+	19	1
+	+	20	0
+	+	18	0
+	+	17	0
+	+	20	2
+	+	16	0
+	+	14	0
+	+	13	0
+	+	8	34
+	+	8	31
+	+	10	1
+	+	4	0
+
+> /alx-low_level_programming/0x01-variables_if_else_while/1-last_digit
+	*	1662730267	0
+	"	1	0
+
+> /alx-low_level_programming/0x01-variables_if_else_while/0-positive_or_negative.c
+	*	1662728849	0
+	"	28	0
+	^	28	1
+	.	18	0
+	+	10	59
+	+	12	1
+	+	13	7
+	+	15	16
+	+	16	27
+	+	16	40
+	+	18	34
+	+	19	51
+	+	20	21
+	+	21	30
+	+	22	46
+	+	23	20
+	+	24	34
+	+	25	34
+	+	26	2
+	+	17	13
+	+	23	19
+	+	10	3
+	+	17	13
+	+	17	1
+	+	18	0
+	+	19	32
+	+	19	0
+	+	20	0
+	+	21	0
+	+	22	0
+	+	23	0
+	+	24	0
+	+	25	0
+	+	26	0
+	+	27	0
+	+	3	18
+	+	10	3
+	+	14	0
+	+	18	0
+
+> /alx-low_level_programming/0x01-variables_if_else_while/0-positive_or_negative
+	*	1662728005	0
+	"	2	0
+	^	18	29
+	.	18	29
+	+	2	19
+	+	2	165
+	+	2	84
+	+	2	87
+	+	2	88
+	+	2	96
+	+	12	48
+	+	3	18
+	+	3	21
+	+	9	2
+	+	10	1
+	+	16	26
+	+	17	10
+	+	18	31
+	+	20	0
+	+	19	20
+	+	20	9
+	+	18	8
+	+	20	26
+	+	21	19
+	+	22	30
+	+	24	11
+	+	25	0
+	+	18	29
+
+> /alx-low_level_programming/0x01-variables_if_else_while/2-print_alphabet
+	*	1662724711	0
+	"	1	0
+
+> /alx-low_level_programming/0x01-variables_if_else_while/2-print_alpahbet.c
+	*	1662724581	0
+	"	1	0
+
+> /alx-low_level_programming/0x01-variables_if_else_while/1-last-digit.c
+	*	1662710133	0
+	"	1	0
+
+> /alx-low_level_programming/0x00-hello_world/100-intel
+	*	1662676411	0
+	"	2	18
+	^	2	19
+	.	2	18
+	+	2	18
+
+> /alx-low_level_programming/0x00-hello_world/101-quote.c
+	*	1662676180	0
+	"	3	0
+	^	3	0
+	.	2	19
+	+	1	18
+	+	11	73
+	+	13	0
+	+	11	9
+	+	2	19
+
+> /alx-low_level_programming/0x00-hello_world/6-size.c
+	*	1662674691	0
+	"	10	32
+	^	10	33
+	.	10	33
+	+	5	29
+	+	16	0
+	+	15	0
+	+	8	28
+	+	8	48
+	+	8	30
+	+	8	17
+	+	8	48
+	+	14	11
+	+	12	5
+	+	10	8
+	+	8	114
+	+	10	8
+	+	8	57
+	+	8	124
+	+	10	69
+	+	11	68
+	+	10	44
+	+	12	47
+	+	13	65
+	+	8	51
+	+	10	55
+	+	11	58
+	+	9	0
+	+	8	24
+	+	9	0
+	+	12	60
+	+	13	42
+	+	11	22
+	+	10	33
+
+> /alx-low_level_programming/0x00-hello_world/4-puts.c
+	*	1662671718	0
+	"	11	0
+	^	11	1
+	.	11	0
+	+	1	18
+	+	1	72
+	+	1	185
+	+	1	192
+	+	1	207
+	+	1	74
+	+	1	91
+	+	1	170
+	+	1	92
+	+	1	203
+	+	1	202
+	+	1	41
+	+	1	92
+	+	1	154
+	+	1	172
+	+	1	91
+	+	1	153
+	+	1	92
+	+	1	160
+	+	1	153
+	+	1	91
+	+	1	90
+	+	1	91
+	+	11	0
+
+> /alx-low_level_programming/0x00-hello_world/5-printf.c
+	*	1662671541	0
+	"	11	0
+	^	11	1
+	.	11	0
+	+	1	18
+	+	5	9
+	+	4	1
+	+	9	68
+	+	10	12
+	+	11	0
+
+> /alx-low_level_programming/0x00-hello_world/3-name
+	*	1662667276	0
+	"	2	22
+	^	2	23
+	.	2	22
+	+	2	22
+
+> /alx-low_level_programming/0x00-hello_world/2-assembler
+	*	1662666538	0
 	"	2	6
 	^	2	7
 	.	2	6
 	+	2	6
 
-> ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-	*	1661954989	0
+> /alx-low_level_programming/0x00-hello_world/1-compiler
+	*	1662666170	0
+	"	2	6
+	^	2	7
+	.	2	6
+	+	2	6
+
+> /alx-low_level_programming/0x00-hello_world/0-preprocessor
+	*	1662664735	0
+	"	2	17
+	^	2	18
+	.	2	17
+	+	2	15
+	+	1	11
+	+	2	17
+
+> /alx-low_level_programming/main.c
+	*	1662664383	0
+	"	10	0
+	^	10	1
+	.	10	0
+	+	1	18
+	+	10	0
+
+> /alx-low_level_programming/.git/config
+	*	1662663981	0
+	"	7	66
+	^	7	67
+	.	7	66
+	+	7	66
+
+> /alx-low_level_programming/0x00-hello_world/main.c
+	*	1662656279	0
+	"	7	74
+	^	7	75
+	.	7	74
+	+	1	18
+	+	4	1
+	+	3	20
+	+	5	29
+	+	7	74
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/103-the_biggest_fan
+	*	1662387834	0
+	"	2	72
+	^	2	73
+	.	2	72
+	+	2	72
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/102-acrostic
+	*	1662387749	0
+	"	2	30
+	^	2	31
+	.	2	30
+	+	2	30
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/101-gifs
+	*	1662387666	0
+	"	2	77
+	^	2	78
+	.	2	77
+	+	2	77
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/100-empty_casks
+	*	1662387525	0
+	"	2	27
+	^	2	28
+	.	2	27
+	+	2	27
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/7-file
+	*	1662387308	0
+	"	2	17
+	^	2	18
+	.	2	18
+	+	2	18
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/11-directories
+	*	1662387078	0
+	"	2	29
+	^	2	30
+	.	2	29
+	+	2	29
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/22-users_and_homes
+	*	1662385930	0
+	"	2	31
+	^	2	32
+	.	2	31
+	+	2	31
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse
+	*	1662385861	0
+	"	2	2
+	^	2	3
+	.	2	2
+	+	1	11
+	+	2	2
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
+	*	1662385827	0
+	"	2	7
+	^	2	8
+	.	2	7
+	+	2	7
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/19-AZ
+	*	1662385791	0
+	"	2	11
+	^	2	12
+	.	2	11
+	+	2	11
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/18-letteronly
+	*	1662385729	0
+	"	2	38
+	^	2	39
+	.	2	39
+	+	2	39
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/17-hidethisword
+	*	1662385653	0
+	"	2	18
+	^	2	19
+	.	2	20
+	+	2	20
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/16-whatsnext
+	*	1662385597	0
+	"	2	13
+	^	2	14
+	.	2	13
+	+	2	13
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/15-countthatword
+	*	1662385537	0
+	"	2	25
+	^	2	26
+	.	2	25
+	+	2	25
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/14-findthatword
+	*	1662385313	0
+	"	2	23
+	^	2	24
+	.	2	23
+	+	2	23
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/13-unique
+	*	1662384460	0
+	"	2	6
+	^	2	7
+	.	2	6
+	+	2	6
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/12-newest_files
+	*	1662384403	0
+	"	2	13
+	^	2	14
+	.	2	13
+	+	2	13
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/10-no_more_js
+	*	1662384267	0
+	"	2	34
+	^	2	35
+	.	2	34
+	+	2	34
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/9-duplicate_last_line
+	*	1662384143	0
+	"	2	21
+	^	2	22
+	.	2	21
+	+	2	21
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/0-hello_world
+	*	1662383516	0
 	"	2	5
 	^	2	6
 	.	2	5
+	+	2	17
+	+	3	0
 	+	2	5
 
-> ~/alx-system_engineering-devops/README.md
-	*	1661954893	0
-	"	1	43
-	^	1	44
-	.	1	43
-	+	1	43
+> ~/alx-system_engineering-devops/0x02-shell_redirections/8-cwd_state
+	*	1662383376	0
+	"	2	8
+	^	2	9
+	.	2	8
+	+	2	8
 
-> /README.md
-	*	1661954709	0
+> ~/alx-system_engineering-devops/0x02-shell_redirections/6-third_line
+	*	1662382993	0
+	"	2	22
+	^	2	23
+	.	3	0
+	+	2	23
+	+	3	0
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/5-firstlines
+	*	1662382968	0
+	"	2	15
+	^	2	16
+	.	3	0
+	+	2	16
+	+	3	0
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/4-lastlines
+	*	1662382899	0
+	"	2	15
+	^	2	16
+	.	3	0
+	+	2	16
+	+	3	0
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/3-twofiles
+	*	1662382859	0
+	"	2	25
+	^	2	26
+	.	3	0
+	+	2	26
+	+	3	0
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/2-hellofile
+	*	1662382778	0
+	"	2	14
+	^	2	15
+	.	3	0
+	+	2	15
+	+	2	12
+	+	3	0
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/1-confused_smiley
+	*	1662382339	0
 	"	1	0
+	^	1	0
+	.	1	0
+	+	1	20
+	+	1	23
+	+	1	26
+	+	1	11
+	+	1	0
 
-> ~/alx-system_engineering-devops/0x00-shell_basics/3-listfiles
-	*	1661954482	0
-	"	2	4
-	^	2	5
-	.	2	4
-	+	2	4
+> ~/alx-system_engineering-devops/0x01-shell_permissions/100-change_owner_and_group
+	*	1662044318	0
+	"	2	20
+	^	2	21
+	.	2	20
+	+	2	20
 
-> ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-	*	1661954443	0
-	"	2	1
-	^	2	2
-	.	2	1
-	+	2	1
+> ~/alx-system_engineering-devops/0x01-shell_permissions/13-change_group
+	*	1662044184	0
+	"	2	17
+	^	2	18
+	.	2	17
+	+	2	17
 
-> ~/alx-system_engineering-devops/0x00-shell_basics/2-bring_me_home
-	*	1661954307	0
-	"	2	1
-	^	2	2
-	.	2	1
-	+	2	1
+> ~/alx-system_engineering-devops/0x01-shell_permissions/12-directory_permissions
+	*	1662044113	0
+	"	2	12
+	^	2	13
+	.	2	12
+	+	2	12
 
-> ~/alx-system_engineering-devops/0x00-shell_basics/11-lists
-	*	1661954083	0
+> ~/alx-system_engineering-devops/0x01-shell_permissions/11-directories_permissions
+	*	1662044027	0
+	"	2	12
+	^	2	13
+	.	2	12
+	+	2	12
+
+> ~/alx-system_engineering-devops/0x01-shell_permissions/10-mirror_permissions
+	*	1662043964	0
+	"	2	7
+	^	2	8
+	.	2	8
+	+	2	8
+
+> ~/alx-system_engineering-devops/0x01-shell_permissions/9-John_Doe
+	*	1662043891	0
+	"	2	14
+	^	2	15
+	.	2	14
+	+	2	14
+
+> ~/alx-system_engineering-devops/0x01-shell_permissions/8-James_Bond
+	*	1662043841	0
+	"	2	14
+	^	2	15
+	.	2	14
+	+	2	14
+
+> ~/alx-system_engineering-devops/0x01-shell_permissions/7-everybody
+	*	1662043790	0
 	"	2	16
 	^	2	17
 	.	2	16
 	+	2	16
 
-> ~/alx-system_engineering-devops/0x00-shell_basics/10-back
-	*	1661953994	0
-	"	2	3
-	^	2	4
-	.	2	3
-	+	2	3
+> ~/alx-system_engineering-devops/0x01-shell_permissions/6-multiple_permissions
+	*	1662043718	0
+	"	2	19
+	^	2	20
+	.	2	19
+	+	2	19
 
-> ~/alx-system_engineering-devops/0x00-shell_basics/13-symbolic_link
-	*	1661953874	0
-	"	2	17
-	^	2	18
-	.	3	0
-	+	3	0
+> ~/alx-system_engineering-devops/0x01-shell_permissions/5-execute
+	*	1662043663	0
+	"	2	14
+	^	2	15
+	.	2	15
+	+	2	15
 
-> ~/alx-system_engineering-devops/0x00-shell_basics/README.md
-	*	1661953425	0
-	"	1	131
-	^	1	132
-	.	1	131
-	+	1	0
-	+	1	24
-	+	1	75
-	+	1	42
-	+	1	43
-	+	1	131
+> ~/alx-system_engineering-devops/0x01-shell_permissions/4-empty
+	*	1662043612	0
+	"	2	10
+	^	2	11
+	.	2	10
+	+	2	10
 
-> /alx-zero_day/0x03-git/bash/alx
-	*	1661859567	0
-	"	2	27
-	^	2	28
-	.	2	27
-	+	3	0
-	+	2	27
+> ~/alx-system_engineering-devops/0x01-shell_permissions/3-new_owner
+	*	1662043584	0
+	"	2	16
+	^	2	17
+	.	2	16
+	+	1	11
+	+	2	16
 
-> /alx-zero_day/0x03-git/bash/school
-	*	1661859261	0
-	"	2	24
-	^	2	25
-	.	2	24
-	+	2	24
-
-> /alx-zero_day/0x03-git/README.md
-	*	1661856771	0
-	"	1	0
-
-> /alx-zero_day/.git/COMMIT_EDITMSG
-	*	1661855491	0
-	"	5	0
-	^	1	0
-	.	1	0
-	+	4	15
-	+	2	13
-	+	1	0
-
-> /alx-pre_course/.git/COMMIT_EDITMSG
-	*	1661246945	0
-	"	1	6
-	^	1	7
-	.	1	0
-	+	1	0
-
-> /alx-pre_course/0x01-git/up_to_date
-	*	1661246757	0
-	"	1	7
-	^	1	8
-	.	1	7
-	+	1	7
-
-> /alx-pre_course/0x01-git/bash/alx
-	*	1661245673	0
-	"	2	27
-	^	2	28
-	.	2	27
-	+	2	17
-	+	3	0
-	+	2	27
-
-> /alx-pre_course/0x01-git/bash/school
-	*	1661244934	0
-	"	2	4
-	^	2	5
-	.	2	4
-	+	2	4
+> ~/alx-system_engineering-devops/0x01-shell_permissions/2-groups
+	*	1662043514	0
+	"	2	5
+	^	2	6
+	.	2	5
+	+	2	5
